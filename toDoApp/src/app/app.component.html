@@ -1,0 +1,13 @@
+<div class="header">
+  Task List
+</div>
+<div class="input-group">
+  <input class="input-box" type="text" placeholder="Enter the task" #task/>
+  <button class="add-btn" (click)="addToList(task.value)">Add Task</button>
+</div>
+<mat-list role="list">
+  <mat-list-item role="listitem">Item 1</mat-list-item>
+  <mat-list-item role="listitem">Item 2</mat-list-item>
+  <mat-list-item role="listitem">Item 3</mat-list-item>
+</mat-list>
+

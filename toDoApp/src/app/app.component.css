@@ -1,0 +1,31 @@
+.header {
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px black solid;
+    color: white;
+    background-color: black;
+    margin: 0 200px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.input-box {
+    width: 500px;
+    padding: 5px 15px;
+    font-size: 1.5em;
+}
+
+.add-btn {
+    padding: 10px 5px;
+    margin-left: 5px;
+    width: 100px;
+
+}
